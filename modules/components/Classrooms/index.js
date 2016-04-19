@@ -45,7 +45,6 @@ class Classrooms extends Component {
   }
 
   render() {
-
     let classrooms = this.state.classrooms.map( classroom => {
       return(
         <ClassroomBox key={classroom._id} {...classroom} refresh={this.getClassrooms} />

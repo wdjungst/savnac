@@ -28,7 +28,7 @@ const Document = React.createClass({
           <title>{title}</title>
           <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
           <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css"></link>
+          <link rel="stylesheet" href="/vendor/Materialize/dist/css/materialize.min.css"></link>
           {styles}
         </head>
         <body>
@@ -39,8 +39,8 @@ const Document = React.createClass({
               __html: `window.__INITIAL_STATE__ = ${JSON.stringify(initialState)};`
             }}/>
           }
-          <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+          <script type="text/javascript" src="/vendor/jquery/dist/jquery.min.js"></script>
+          <script src="/vendor/Materialize/dist/js/materialize.min.js"></script>
           {scripts}
         </body>
       </html>

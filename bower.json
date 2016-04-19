@@ -7,17 +7,18 @@
   ],
   "license": "ISC",
   "moduleType": [],
-  "homepage": "",
+  "homepage": "https://github.com/wdjungst/savnac",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "public/vendor",
     "test",
-    "tests"
+    "tests",
+    "static/vendor"
   ],
   "dependencies": {
     "bootstrap": "^3.3.6",
-    "Materialize": "materialize#^0.97.5"
+    "Materialize": "materialize#^0.97.6"
   }
 }
